@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "test-webpack": "karma start karma.conf.webpack.js --singleRun"
   },
   "author": "bqiao",
   "license": "MIT",
@@ -14,6 +15,9 @@
     "karma": "^3.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-electron": "^6.0.0",
-    "karma-jasmine": "^1.1.2"
-  }
+    "karma-jasmine": "^1.1.2",
+    "karma-webpack": "^3.0.5",
+    "webpack": "^4.20.2"
+  },
+  "dependencies": {}
 }
